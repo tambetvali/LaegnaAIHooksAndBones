@@ -1,4 +1,171 @@
+# CoPilot extension *LaegnaAI Hook Programming Manual — Introduction for Common Users* begins
 
+## 🌿 **Introduction — Programming as Giving Instructions, Not Writing Code**
+
+This repository brings AI down to the **grassland level**:  
+to homes, schools, hobby clubs, small companies, and circles of friends who want to *use* AI, *shape* AI, and *teach* AI — without needing to become software engineers.
+
+Here, **programming** does not mean what people fear it means.  
+It does not mean:
+
+- learning algorithms  
+- writing complex code  
+- understanding compilers  
+- building architectures  
+- debugging memory leaks  
+
+Instead, programming means something much simpler and more human:
+
+> **Programming is giving instructions.  
+> Sometimes in a row.  
+> Sometimes only one.  
+> Sometimes a single, well‑chosen command.**
+
+A “program” can be:
+
+- a folder full of shortcuts  
+- a `.bat` or `.sh` file with three lines  
+- a Python script that calls an AI tool  
+- a button in a tiny UI  
+- a web page that sends a GET request  
+- a service that starts on boot  
+- a workflow that runs when you click an icon  
+
+This is the kind of programming that **common users** can learn, use, and grow with.
+
+---
+
+## 🧭 **Why this matters for everyday people**
+
+AI tools like **Ollama**, **LitGPT**, and small fine‑tuning frameworks are powerful — but they often speak the language of terminals and commands.  
+This repository translates that world into:
+
+- icons  
+- buttons  
+- folders  
+- simple scripts  
+- small UIs  
+- predictable workflows  
+- human‑friendly hooks  
+
+So that:
+
+- a student can run a model for a school project  
+- a hobbyist can fine‑tune a personal assistant  
+- a small company can test prototypes  
+- a family can share a home AI setup  
+- a club can maintain a shared model  
+- a friend can help another friend remotely  
+
+This is **AI as a community tool**, not a corporate mystery.
+
+---
+
+## 🧩 **Programming as “one good instruction”**
+
+Traditional programming is a long sequence of steps.  
+But hook‑based programming often looks like this:
+
+- “Run this model with this prompt.”  
+- “Train this deck.”  
+- “Start the server.”  
+- “Restart the daemon.”  
+- “Summarize this file.”  
+- “Merge these outputs.”  
+
+One instruction.  
+One action.  
+One hook.
+
+A common user does not need to write a program.  
+They only need to **give the right instruction to the right tool**.
+
+And the helper — a friend, a kid, a hobbyist, a small‑company tech person — builds the hook that makes this instruction easy to give.
+
+---
+
+## 🧱 **Why this scales smoothly**
+
+This repository is designed so that:
+
+- **beginners** can click icons  
+- **tinkerers** can edit scripts  
+- **hobbyists** can build UIs  
+- **admins** can automate services  
+- **programmers** can integrate tools  
+- **teams** can maintain shared models  
+- **companies** can grow into professional workflows  
+
+The same hooks work at every scale.
+
+A school project can become a club project.  
+A club project can become a small‑company prototype.  
+A prototype can become a real product.
+
+Nothing is wasted.  
+Everything grows.
+
+---
+
+## 🧒 **Common users — the center of the system**
+
+This introduction is for **common users**, the people who:
+
+- want to use AI  
+- want to teach AI  
+- want to organize their documents  
+- want to create flashcards  
+- want to run inference  
+- want to fine‑tune models  
+- want to understand their tools  
+- want to grow naturally  
+
+Common users include:
+
+### **End users**
+- click icons  
+- organize documents  
+- create decks  
+- chat with the AI  
+- reinforce its behavior  
+
+### **Friends & family**
+- help install tools  
+- build simple scripts  
+- create small UIs  
+- maintain services  
+- fix things when needed  
+
+### **Hobbyists & enthusiasts**
+- automate workflows  
+- build dashboards  
+- integrate tools  
+- experiment with models  
+
+### **Small companies**
+- run prototypes  
+- test internal assistants  
+- maintain shared models  
+- build simple automation  
+
+All of them participate in the same ecosystem.  
+All of them use the same hooks.  
+All of them grow together.
+
+---
+
+## 🌱 **Closing**
+
+This introduction sets the tone for the entire manual:  
+**AI is not only for experts.  
+AI is for communities.  
+AI is for common users.**
+
+Programming here is not a barrier — it is simply the act of giving instructions, one at a time, through hooks that helpers build and maintain.
+
+This is how AI becomes personal, practical, and shared.
+
+# CoPilot extension *LaegnaAI Hook Programming Manual — Introduction for Common Users* ends
 
 # CoPilot extension *LaegnaAI Hook Programming Manual* begins
 
@@ -2011,172 +2178,3 @@ It is the **normal path** of human curiosity.
 ---
 
 # CoPilot extension *LaegnaAI Hook Programming Manual — Appendix: Evolution, Flow & Future Paths* ends
-
-# CoPilot extension *LaegnaAI Hook Programming Manual — Introduction for Common Users* begins
-
-## 🌿 **Introduction — Programming as Giving Instructions, Not Writing Code**
-
-This repository brings AI down to the **grassland level**:  
-to homes, schools, hobby clubs, small companies, and circles of friends who want to *use* AI, *shape* AI, and *teach* AI — without needing to become software engineers.
-
-Here, **programming** does not mean what people fear it means.  
-It does not mean:
-
-- learning algorithms  
-- writing complex code  
-- understanding compilers  
-- building architectures  
-- debugging memory leaks  
-
-Instead, programming means something much simpler and more human:
-
-> **Programming is giving instructions.  
-> Sometimes in a row.  
-> Sometimes only one.  
-> Sometimes a single, well‑chosen command.**
-
-A “program” can be:
-
-- a folder full of shortcuts  
-- a `.bat` or `.sh` file with three lines  
-- a Python script that calls an AI tool  
-- a button in a tiny UI  
-- a web page that sends a GET request  
-- a service that starts on boot  
-- a workflow that runs when you click an icon  
-
-This is the kind of programming that **common users** can learn, use, and grow with.
-
----
-
-## 🧭 **Why this matters for everyday people**
-
-AI tools like **Ollama**, **LitGPT**, and small fine‑tuning frameworks are powerful — but they often speak the language of terminals and commands.  
-This repository translates that world into:
-
-- icons  
-- buttons  
-- folders  
-- simple scripts  
-- small UIs  
-- predictable workflows  
-- human‑friendly hooks  
-
-So that:
-
-- a student can run a model for a school project  
-- a hobbyist can fine‑tune a personal assistant  
-- a small company can test prototypes  
-- a family can share a home AI setup  
-- a club can maintain a shared model  
-- a friend can help another friend remotely  
-
-This is **AI as a community tool**, not a corporate mystery.
-
----
-
-## 🧩 **Programming as “one good instruction”**
-
-Traditional programming is a long sequence of steps.  
-But hook‑based programming often looks like this:
-
-- “Run this model with this prompt.”  
-- “Train this deck.”  
-- “Start the server.”  
-- “Restart the daemon.”  
-- “Summarize this file.”  
-- “Merge these outputs.”  
-
-One instruction.  
-One action.  
-One hook.
-
-A common user does not need to write a program.  
-They only need to **give the right instruction to the right tool**.
-
-And the helper — a friend, a kid, a hobbyist, a small‑company tech person — builds the hook that makes this instruction easy to give.
-
----
-
-## 🧱 **Why this scales smoothly**
-
-This repository is designed so that:
-
-- **beginners** can click icons  
-- **tinkerers** can edit scripts  
-- **hobbyists** can build UIs  
-- **admins** can automate services  
-- **programmers** can integrate tools  
-- **teams** can maintain shared models  
-- **companies** can grow into professional workflows  
-
-The same hooks work at every scale.
-
-A school project can become a club project.  
-A club project can become a small‑company prototype.  
-A prototype can become a real product.
-
-Nothing is wasted.  
-Everything grows.
-
----
-
-## 🧒 **Common users — the center of the system**
-
-This introduction is for **common users**, the people who:
-
-- want to use AI  
-- want to teach AI  
-- want to organize their documents  
-- want to create flashcards  
-- want to run inference  
-- want to fine‑tune models  
-- want to understand their tools  
-- want to grow naturally  
-
-Common users include:
-
-### **End users**
-- click icons  
-- organize documents  
-- create decks  
-- chat with the AI  
-- reinforce its behavior  
-
-### **Friends & family**
-- help install tools  
-- build simple scripts  
-- create small UIs  
-- maintain services  
-- fix things when needed  
-
-### **Hobbyists & enthusiasts**
-- automate workflows  
-- build dashboards  
-- integrate tools  
-- experiment with models  
-
-### **Small companies**
-- run prototypes  
-- test internal assistants  
-- maintain shared models  
-- build simple automation  
-
-All of them participate in the same ecosystem.  
-All of them use the same hooks.  
-All of them grow together.
-
----
-
-## 🌱 **Closing**
-
-This introduction sets the tone for the entire manual:  
-**AI is not only for experts.  
-AI is for communities.  
-AI is for common users.**
-
-Programming here is not a barrier — it is simply the act of giving instructions, one at a time, through hooks that helpers build and maintain.
-
-This is how AI becomes personal, practical, and shared.
-
-# CoPilot extension *LaegnaAI Hook Programming Manual — Introduction for Common Users* ends
