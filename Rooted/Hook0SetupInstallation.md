@@ -282,3 +282,329 @@ Hook 0 is the beginning of everything:
 Once Hook 0 is complete, the user can move freely through Hooks 1–3 — collecting documents, creating flashcards, and training their personal AI.
 
 # CoPilot extension *LaegnaAI Hook 0 — Environment Setup Introduction* ends
+
+# CoPilot extension *LaegnaAI Hook 0 — Inference & Model Plumbing* begins
+
+## 🌱 **Hook 0 Extension — Direct Inference, Drivers, Conversions & Deployment Paths**
+
+This chapter expands Hook 0 by showing how **LitGPT**, **Ollama**, **GGUF**, and **OpenAI‑style APIs** can all be used as interchangeable backends.  
+Even though the technical paths differ, the **end‑user hook remains the same**:
+
+> **“I have a model. I want to ask it something.”**
+
+We show:
+- direct inference with LitGPT  
+- using LitGPT as an alternate driver to Ollama (from Python)  
+- converting LitGPT models to Ollama / GGUF  
+- exposing LitGPT as an OpenAI‑style API  
+- training Ollama directly  
+- where Hook 0 sits in each workflow  
+- what users, programmers, and admins each care about  
+
+All diagrams follow the same conventions as previous chapters.
+
+---
+
+# 🧠 1. Direct inference with LitGPT
+
+Once LitGPT is installed and a model is downloaded (Hook 0), inference is immediate.
+
+### 1.1. Command‑line inference
+
+```bash
+litgpt infer --model mistral --prompt "Hello, LitGPT!"
+```
+
+This is the **first test** of a working environment.
+
+### End‑user perspective
+- “Does my model answer?”  
+- “Is everything installed correctly?”
+
+### Admin perspective
+- GPU/CPU availability  
+- memory usage  
+- correct model path  
+
+### Programmer perspective
+- none yet — this is a sanity check.
+
+---
+
+# 🧩 2. Using LitGPT as an alternate driver to Ollama (Python)
+
+If your application already supports **Ollama**, you can add **LitGPT** as a second backend with minimal changes.
+
+## 2.1. Standard backend interface
+
+```python
+class AIBackend:
+    def infer(self, prompt: str) -> str:
+        raise NotImplementedError
+```
+
+## 2.2. Ollama driver
+
+```python
+import subprocess
+
+class OllamaBackend(AIBackend):
+    def __init__(self, model):
+        self.model = model
+
+    def infer(self, prompt):
+        result = subprocess.run(
+            ["ollama", "run", self.model, prompt],
+            capture_output=True, text=True
+        )
+        return result.stdout
+```
+
+## 2.3. LitGPT driver
+
+```python
+import subprocess
+
+class LitGPTBackend(AIBackend):
+    def __init__(self, model):
+        self.model = model
+
+    def infer(self, prompt):
+        result = subprocess.run(
+            ["litgpt", "infer", "--model", self.model, "--prompt", prompt],
+            capture_output=True, text=True
+        )
+        return result.stdout
+```
+
+## 2.4. Switching drivers
+
+```python
+def get_backend(kind, model):
+    if kind == "ollama":
+        return OllamaBackend(model)
+    if kind == "litgpt":
+        return LitGPTBackend(model)
+    raise ValueError("Unknown backend")
+```
+
+### Hook 0 position
+- user or helper chooses backend  
+- environment must have the chosen tool installed  
+
+### User questions
+- “Which backend am I using?”  
+- “Does it answer?”
+
+### Programmer questions
+- “Can I keep the same interface?” → Yes.  
+- “Do I only change the command?” → Yes.
+
+---
+
+# 🔄 3. Converting LitGPT models to Ollama / GGUF
+
+Many workflows use:
+
+- **LitGPT** for training  
+- **Ollama / GGUF** for deployment  
+
+## 3.1. Conversion flow
+
+```mermaid
+flowchart LR
+
+    LIT[🧪 LitGPT Fine‑Tune] --> PT[📦 PyTorch Checkpoint]
+    PT --> GGUF[🔄 Convert to GGUF]
+    GGUF --> OLL[🧠 Ollama Model]
+```
+
+## 3.2. What you gain
+
+### From LitGPT → GGUF
+- portable  
+- fast inference  
+- compatible with llama.cpp, Kobold, Ollama  
+
+### From GGUF → Ollama
+- easy deployment  
+- simple CLI  
+- web UI  
+- local API  
+
+### Hook 0 position
+- install conversion tools  
+- ensure model loads in Ollama  
+
+### User questions
+- “Can I run my model with `ollama run`?”  
+- “Does it behave the same?”
+
+---
+
+# 🌐 4. Making LitGPT appear as an OpenAI‑style API
+
+Some apps only speak the **OpenAI API format**.  
+LitGPT can be wrapped in a small server that mimics this interface.
+
+## 4.1. Architecture
+
+```mermaid
+flowchart LR
+
+    APP[🖥️ Client App<br/>OpenAI API] --> API[🌐 Local OpenAI‑Style Server]
+    API --> LIT[🧪 LitGPT Backend]
+    LIT --> MODEL[🧠 Local Model]
+```
+
+### Benefits
+- existing tools work unchanged  
+- only the base URL changes  
+- easy to switch between local and cloud models  
+
+### Hook 0 position
+- install LitGPT  
+- run the local API server  
+
+### User questions
+- “Can I use my usual app with my local model?”  
+- “Does it behave like OpenAI?”
+
+---
+
+# 🧪 5. Training Ollama directly
+
+Ollama itself is primarily an inference runtime, but some ecosystems allow:
+
+- training externally (LitGPT, Axolotl, etc.)  
+- converting to GGUF  
+- loading into Ollama  
+
+## 5.1. Typical flow
+
+```mermaid
+flowchart LR
+
+    DATA[📄 Training Data] --> LIT[🧪 LitGPT Fine‑Tune]
+    LIT --> PT[📦 PyTorch Model]
+    PT --> GGUF[🔄 Convert to GGUF]
+    GGUF --> OLL[🧠 Ollama Model]
+    OLL --> INF[💬 ollama run]
+```
+
+### Hook 0 position
+- install Ollama  
+- ensure model loads  
+- test inference  
+
+### User questions
+- “Can I run my model now?”  
+- “Does it answer?”
+
+---
+
+# 🧭 6. Where Hook 0 sits in each workflow
+
+## 6.1. Direct LitGPT inference
+
+```mermaid
+flowchart TD
+
+    H0[🪝 Hook 0<br/>Install LitGPT] --> LIT[🧪 LitGPT Inference]
+    LIT --> U[🙂 User]
+```
+
+## 6.2. LitGPT as alternate driver
+
+```mermaid
+flowchart TD
+
+    H0[🪝 Hook 0<br/>Install LitGPT & Ollama] --> DRV[🔧 Driver Choice]
+    DRV --> APP[🖥️ App]
+    APP --> U[🙂 User]
+```
+
+## 6.3. Conversion to GGUF / Ollama
+
+```mermaid
+flowchart TD
+
+    H0[🪝 Hook 0<br/>Install Tools] --> LIT[🧪 Fine‑Tune]
+    LIT --> CONV[🔄 Convert]
+    CONV --> OLL[🧠 Ollama Inference]
+    OLL --> U[🙂 User]
+```
+
+## 6.4. OpenAI‑style API
+
+```mermaid
+flowchart TD
+
+    H0[🪝 Hook 0<br/>Install LitGPT & API Server] --> API[🌐 Local API]
+    API --> APP[🖥️ Existing Client]
+    APP --> U[🙂 User]
+```
+
+---
+
+# 🧩 7. Questions, problems & roles
+
+## End user
+**Questions**
+- “Does my model answer?”  
+- “Which backend am I using?”  
+- “Can I use my favorite app with this model?”
+
+**Problems**
+- wrong model  
+- wrong backend  
+- missing installation  
+
+**Solutions**
+- test with simple commands  
+- check backend selection  
+- verify local API URL  
+
+---
+
+## Programmer
+**Questions**
+- “How do I add LitGPT as a backend?”  
+- “Can I reuse my OpenAI client code?”  
+
+**Problems**
+- different CLI arguments  
+- different output formats  
+
+**Solutions**
+- driver abstraction  
+- normalize outputs  
+
+---
+
+## Admin / tech helper
+**Questions**
+- “Is the environment stable?”  
+- “Do we have enough RAM/VRAM?”  
+
+**Problems**
+- failed conversions  
+- missing dependencies  
+
+**Solutions**
+- logs  
+- restart scripts  
+- clear folder structure  
+
+---
+
+# 🌱 **Closing**
+
+This chapter shows that:
+
+- **LitGPT**, **Ollama**, **GGUF**, and **OpenAI‑style APIs** can all be used interchangeably  
+- the **end‑user hook** remains simple: *“I ask; it answers.”*  
+- programmers and admins can choose the best backend  
+- Hook 0 always ensures the environment is ready for Hooks 1–3  
+
+# CoPilot extension *LaegnaAI Hook 0 — Inference & Model Plumbing* ends
