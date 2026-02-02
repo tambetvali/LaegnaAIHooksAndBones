@@ -1,3 +1,18 @@
+
+---
+
+## 📑 Mini‑Index
+
+- [`Book1General.md`](Book1General.md) — **👤🟥 *General overview*** of the workflow  
+- [`Choice1Modelslist.md`](Choice1Modelslist.md) — **🤖⬜ * Choosing models*** for Activities 1–3  
+- [`Hook0SetupInstallation.md`](Hook0SetupInstallation.md) — **🛠️🟩 Setup and installation** (technical hook)  
+- [`Hook1DocumentCollection.md`](Hook1DocumentCollection.md) — **📁🟦 Document collection** (Activity 1)  
+- [`Hook2FlashcardsDecks.md`](Hook2FlashcardsDecks.md) — **🃏🟨 Flashcards and deck** work (Activity 2)  
+- [`Hook3TrainingFinetuning.md`](Hook3TrainingFinetuning.md) — **🛠️🟩 Training and finetuning** (support hook)  
+- [`Look1Inference.md`](Look1Inference.md) — **👤🔴 *⇒ Inference chat*** (Activity 3)
+
+---
+
 # 🌿 LaegnaAIHooksAndBones — Main Module Overview
 
 This module introduces the **three essential user activities** of Laegna AI:  
