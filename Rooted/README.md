@@ -180,10 +180,14 @@ This final chapter brings everything together. It explains how users interact wi
 
 ```mermaid
 flowchart TD
-    A3[💬 Inference Chat] --> A1[📁 Documents]
-    A3 --> A2[🃏 Flashcards]
+    A3[💬 Inference Chat]:::green --> A1[📁 Documents]:::blue
+    A3 --> A2[🃏 Flashcards]:::yellow
     A1 --> A3
     A2 --> A3
+
+    classDef green fill:#9be7a5,stroke:#2e7d32,color:#000;
+    classDef blue fill:#90caf9,stroke:#1565c0,color:#000;
+    classDef yellow fill:#fff59d,stroke:#f9a825,color:#000;
 ```
 
 > **Summary:**  
