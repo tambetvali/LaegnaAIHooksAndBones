@@ -1,3 +1,5 @@
+Manual for this chapter: [here](https://github.com/tambetvali/LaegnaAIHooksAndBones/tree/main/Chapters/Book1General.md).
+
 # CoPilot extension *LaegnaAI Book 1 — General Architecture of Hooks & Bones* begins
 
 ## 🌿 **Book 1 — General Architecture: Hooks, Bones, and the Flow of Personal AI**
