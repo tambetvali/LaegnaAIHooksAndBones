@@ -1,3 +1,5 @@
+Manual for this chapter: [here](https://github.com/tambetvali/LaegnaAIHooksAndBones/tree/main/Chapters/Look1Inference.md).
+
 # The first sight..
 
 ..is inference: as well, "l" is good in alphabet after "b" and "h", so it's ordered alphabetically - the files. A fine poetry landscape to organize my files and titles, well good with my laziness: I was good at poetry when child, but now I cannot concentrate a lot - I create file names :) Well into tech..
