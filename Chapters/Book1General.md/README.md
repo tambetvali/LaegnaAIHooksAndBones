@@ -1,10 +1,10 @@
 # Chapter 0 — The Three Steps of Growing AI Capability
 
 In each step, the AI access interface is updated:
-- Using the initial guide, you can access an AI or install it yourself.
-- Using the later parts, it might need a tech-savy individual or professional service for you,
-  - but none of them needs special science: mostly, installation of application as usual,
-  - or installation of application using terminal - often it's just copy-pasting one line and pressing enter.
+- Using the *initial guide*, you can **access** an AI or **install it yourself**.
+- Using the *later parts*, it might ***need*** a *tech-savy individual* or *professional service* for you,
+  - but **none of** them needs *special science*: mostly, ***installation*** of ***application*** as usual,
+  - or **installation** of application *using terminal* - often it's just ***copy-pasting*** one line and ***pressing enter***.
 
 Modern AI capability grows in layers. Most people, families, communities, and organizations follow a natural progression:
 
