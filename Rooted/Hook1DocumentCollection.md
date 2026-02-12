@@ -1,3 +1,5 @@
+Manual for this chapter: [here](https://github.com/tambetvali/LaegnaAIHooksAndBones/tree/main/Chapters/Hook1DocumentCollection.md).
+
 # CoPilot extension *LaegnaAI Hook 1 — Document Collection* begins
 
 ## 🌿 **Hook 1 — Document Collection: Building Your Knowledge Library**
