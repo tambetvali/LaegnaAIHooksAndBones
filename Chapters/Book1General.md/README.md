@@ -6,6 +6,8 @@ In each step, the AI access interface is updated:
   - but **none of** them needs *special science*: mostly, ***installation*** of ***application*** as usual,
   - or **installation** of application *using terminal* - often it's just ***copy-pasting*** one line and ***pressing enter***.
 
+---
+
 Modern AI capability grows in layers. Most people, families, communities, and organizations follow a natural progression:
 
 1. **Basic AI functionality**  
