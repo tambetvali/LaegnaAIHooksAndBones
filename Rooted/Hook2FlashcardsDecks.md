@@ -1,3 +1,5 @@
+Manual for this chapter: [here](../Chapters/Hook2FlashcardsDecks.md).
+
 # CoPilot extension *LaegnaAI Hook 2 — Flashcards & Decks* begins
 
 ## 🎓 **Hook 2 — Flashcards & Decks: Teaching Your AI the Way You Teach Yourself**
