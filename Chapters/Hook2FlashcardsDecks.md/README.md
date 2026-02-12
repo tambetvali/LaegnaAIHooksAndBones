@@ -1003,7 +1003,7 @@ It uses the formulas of the domain — business, climate, science — to create 
 
 This is how small‑business data becomes part of a general, scalable, intelligent system.
 
-# Appenix
+# Appendix
 
 ***You might get some data for initial tasks for some of the text - this is not part of the content, but clarification and somewhat "draft format" as it's was used to produce some chapters before; it still contains some of my rich data:***
 
