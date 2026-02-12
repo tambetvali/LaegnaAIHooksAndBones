@@ -1,3 +1,210 @@
+# Chapter 0 — The Three Steps of Growing AI Capability
+
+In each step, the AI access interface is updated:
+- Using the initial guide, you can access an AI or install it yourself.
+- Using the later parts, it might need a tech-savy individual or professional service for you,
+  - but none of them needs special science: mostly, installation of application as usual,
+  - or installation of application using terminal - often it's just copy-pasting one line and pressing enter.
+
+Modern AI capability grows in layers. Most people, families, communities, and organizations follow a natural progression:
+
+1. **Basic AI functionality**  
+2. **Document collections and context**  
+3. **Training and fine‑tuning**
+
+This chapter introduces these steps in a simple, practical way. It is written for everyday users, for those who guide them, and for anyone researching how people adopt AI tools.
+
+---
+
+## 1. Basic AI Functionality
+
+The first step is simply *getting access to an AI assistant* and learning how to use it effectively. This can be done through online services or local tools.
+
+### 1.1 Connecting to Online AI Services (CoPilot, ChatGPT)
+
+Most users begin with cloud‑based AI systems. These services offer:
+
+- Natural language chat  
+- Writing and editing assistance  
+- Coding help  
+- Document summarization  
+- Image generation  
+- Access to plugins, extensions, and integrations  
+
+Creating an account is simple: sign up, verify email, and optionally subscribe for higher‑tier models. These systems require no installation and are ideal for beginners.
+
+### 1.2 Installing Local AI Tools
+
+Local AI tools run models directly on your computer. They vary in complexity and capability:
+
+| Tool | Difficulty | What It Offers |
+|------|------------|----------------|
+| **Jan** | Easy | One‑click installation, built‑in chat, simple model downloads |
+| **GPT4All** | Intermediate | Local models, document reading, plugins, external client connections |
+| **Ollama** | Intermediate | Simple command‑line tool, fast model downloads, local API server |
+| **LM Studio** | Advanced | Model management, server mode, API endpoints, integration with external apps |
+
+#### Jan (easy)
+- Install the app  
+- Download a small model  
+- Start chatting  
+- Minimal configuration  
+
+#### GPT4All (intermediate)
+- Install the desktop app  
+- Choose from many free models  
+- Load documents for contextual chat  
+- Connect external clients (VSCode, browser extensions)  
+- Run a local API endpoint for other apps  
+
+#### Ollama (intermediate)
+- Install via a simple installer  
+- Run models with a single command (`ollama run llama3`)  
+- Pull models from a large community library  
+- Expose a **local API** that many tools can connect to  
+- Works well with VSCode, Obsidian, LogSeq, and custom scripts  
+
+#### LM Studio (advanced)
+- Install the application  
+- Download or import models (GGUF and others)  
+- Run a local API server  
+- Integrate with external tools (VSCode, LogSeq, custom apps)  
+- Manage multiple models and advanced settings  
+
+This step teaches users how to combine built‑in chat with external clients and services.  
+Beginners may stay with Jan or online AI.  
+Intermediate users often adopt GPT4All or Ollama.  
+Advanced users build full ecosystems around LM Studio.
+
+---
+
+## 2. Document Collections and Context
+
+Once basic AI usage is comfortable, the next step is giving the AI *context*—your documents, notes, archives, and knowledge bases.
+
+### 2.1 Local AI Tools for Document Reading
+
+Tools like **GPT4All**, **Ollama (via plugins)**, and **LM Studio** can ingest:
+
+- PDFs  
+- Markdown files  
+- Text archives  
+- Knowledge bases  
+- Research papers  
+
+This allows the AI to answer questions using your own material.
+
+### 2.2 Knowledge Management Tools
+
+To organize and maintain document collections, users can choose:
+
+| Tool | Difficulty | Capabilities |
+|------|------------|--------------|
+| **LogSeq** | Easy | Local graph notes, backlinks, plugins, simple AI integrations |
+| **VSCode** | Intermediate / Advanced | Extensions for AI chat, code assistance, documentation workflows |
+
+#### LogSeq (easy)
+- Install the app  
+- Create a graph  
+- Add notes, PDFs, and pages  
+- Use AI plugins for summarization and Q&A  
+- Connect to GPT4All, Ollama, or LM Studio through community extensions  
+
+#### VSCode (intermediate/advanced)
+- Install AI extensions (free or paid)  
+- Connect to local or cloud models  
+- Use AI to refactor code, generate documentation, or analyze files  
+- Integrate with **Ollama**, **GPT4All**, or **LM Studio** via local API endpoints  
+
+This step transforms AI from a general assistant into a personalized knowledge worker.
+
+---
+
+## 3. Training and Fine‑Tuning
+
+The final step is the most powerful: *teaching the AI new skills* or adapting it to your environment.
+
+### 3.1 Tools for Training
+
+Users can approach this at different levels:
+
+| Tool | Difficulty | Purpose |
+|------|------------|---------|
+| **LitGPT** | Easy | Simple fine‑tuning workflows, guided setup |
+| **Python‑based bots (pip)** | Intermediate | Specialized models (tiny, small, medium, large), experimental or domain‑specific |
+| **PyTorch** | Hard | Full control over training GPT‑style models |
+
+#### LitGPT (easy)
+- Install with a few commands  
+- Load a small model  
+- Fine‑tune on your own text  
+- Ideal for beginners with guidance from a tech‑savvy friend  
+
+#### Python bots (intermediate)
+- Install via pip  
+- Explore fine‑tuning options  
+- Work with experimental or specialized models  
+- Learn how models behave with different datasets  
+
+#### PyTorch (hard)
+- Build or modify GPT architectures  
+- Train on custom datasets  
+- Convert models to formats used by ChatGPT, CoPilot, or community AIs  
+
+### 3.2 How Users Access Training
+
+Most end users don’t start alone—they get help:
+
+- A tech‑savvy friend installs LitGPT  
+- A professional sets up a training environment  
+- A community shares models and scripts  
+- A company provides curated datasets  
+
+Training becomes a continuous process: start small, adjust, expand.
+
+### 3.3 Organizational Training and Administration
+
+Larger groups—families, villages, companies, corporations, governments—often have administrators who:
+
+- Collect and organize documentation  
+- Label data  
+- Convert files into formats suitable for different models  
+- Maintain consistency across tools and environments  
+
+Different models require different approaches:
+
+- **Small models** are sensitive:  
+  - Confusing phrasing or unrelated content can cause hallucinations  
+  - Even warning labels may disrupt expected outputs  
+
+- **Large models** are robust:  
+  - They can handle mixed, unlabelled, or contradictory data  
+  - They learn patterns positively, negatively, or relationally  
+  - They stabilize through volume and diversity  
+
+This mirrors human learning: some people get confused by unclear information, others clarify it, and some discover hidden patterns and transform them into insight.
+
+---
+
+## Why This Matters for Users and Market Researchers
+
+This three‑step progression reflects how real people adopt AI:
+
+- **Simple users** start with online AI or Jan.  
+- **Growing users** adopt GPT4All, Ollama, or LM Studio.  
+- **Power users** begin training and fine‑tuning.  
+- **Organizations** build structured AI ecosystems.  
+
+Understanding this progression helps:
+
+- Educators guide learners  
+- Developers design tools  
+- Communities build shared AI resources  
+- Market researchers identify needs and gaps  
+- Administrators plan long‑term AI strategies  
+
+This chapter sets the foundation for everything that follows.
+
 # Setting up Ollama and Open WebUI in a way a non‑technical user can understand and operate
 
 ## What Ollama is in practical terms
