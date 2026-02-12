@@ -1002,3 +1002,84 @@ It uses the formulas of the domain — business, climate, science — to create 
 - and learn smoothly  
 
 This is how small‑business data becomes part of a general, scalable, intelligent system.
+
+# Appenix
+
+***You might get some data for initial tasks for some of the text - this is not part of the content, but clarification and somewhat "draft format" as it's was used to produce some chapters before; it still contains some of my rich data:***
+
+# Appendix: Original Instructions and Prompts
+
+## Section 1 — Concert Machine‑Learning Example  
+*(From “Imagine you make concerts…” to “…either with fields or field expressions on card.”)*
+
+Imagine you make concerts and you have managed to create a table of your experience, which has:
+- Q fields:
+  - Where (concert hall, outside, etc., 10 types)
+  - Ticket price
+  - Length (30 minutes, hour, 2 hours)
+  - Solo concert or other artists
+- A fields:
+  - How much you earned
+  - How much you spent
+  - Were there any financial problems in any related process
+
+Machine Learning:
+
+You create a function form:
+- Q = A
+  - Q: f_1(where, price, length, solo)
+  - A: f_2(earned, spent, problems)
+  - You can associate each field is text or number, and have final form:
+    - Q = A => f_1(where, price, length, solo) = f_2(earned, spent, problems)
+  - There is *possible direct solution* - AI learns the function f_1; it will give you some form of output, such as linear regression form of this equation, but you use yours.
+- Unknowns for an AI
+  - Mostly, you can now create the function form with unknowns:
+    - Q = A
+      - f_1(where, price, length, solo) =
+        - x1 * where + y1 * price + z1 * length + t1 * solo => earned
+        - x2 * where + y2 * price + z2 * length + t2 * solo => spent
+        - x3 * where + y3 * price + z3 * length + t3 * solo => problems
+      - While this is stupid function form and almost definitely not yield very good solutions, the machine learning algorithm would file x, y, z and t from 1 to 3 with 12 numbers after optimization; this algorithm is linear and thus while not efficient, easy to optimize towards it's maximum efficiency. Notice that the numbered variables in this new format are A, and both input and output of the function are fields to Q.
+      - For real, you want to use the calculation template from your school, or business school: one which describes, for example, possible company sizes (size classes), and then gives the equation to resolve monetary situation - an AI would figure out such company size class, which suits your actual accounting, based on the past table.
+
+This is useful to put this into Anki deck:
+- You can add fields and values to Q&A
+  - You can use this final table directly for machine learning
+  - You can create template, which shows the Q&A meaningfully:
+    - A GPT can learn them in textual format;
+      - and it can also learn the set where generated unknowns are already met.
+      - this allows it to enable this machine learning feature, as well as reason about the context.
+    - Machine learning system likes the unknowns and the function form, and suits with your table. It does not read Anki textual format, but you can prefer Anki to raw table - it can read the fields with SQLite-compatible interface (it's easy to convert SQLite into web-served format or generate a file, for example with Python or many SQL no-coders or existing systems, and there are many SQL-related systems for simple field extraction); some of them might support anki or SQLite. The other way is to figure out Anki export formats, whether and how they support fields. The system to convert visual cards to raw data is SpaCy or it can be an AI task, in case you *create* the cards in initial Anki format, either with fields or field expressions on card.
+
+---
+
+## Section 2 — Domain‑Based Machine Learning Instructions  
+*(From “Standard small-business case…” to “…it must not be filled in, what means ‘connection’.”)*
+
+### Standard small-business case with their typical database
+### A standard, generally recognizable and preferrably somewhat scalable question (i.e. similar happens to large company or individual with no much paradigm shifts)
+### To turn it to proper domain-based machine learning (express and explain the term):
+  - General AI:
+    - Deep Learning uses very universal, balanced formulae - matrix+bias calculation is math primitive, expressing it's ultimate harmonic balance; most generally, in known automatable and optimal math, this is simple syntax to express many different functions with equal probability of fit and simplicity, for example typical math problem does not escape the scale or is itself very complex. Standard science tools can be used for operations on results, altough it's hard to read or to give meaning to it's parts (holistic, field-based, rather than rational and symbol-based). DL uses 2D matrix, often large.
+    - Machine Learning uses very typical formats we learn in school as generic templates - linear regression, polynominals, ones where typically your variables v1, v2, v3, ... come along with unknowns x1, x2, x3, ...; it's also "learning" and "generic" in sense that these are typical 1D vectors, which are most efficient to resolve; also the solutions have mathematical balance and efficiently scale to random distribution of expressions in such linear complexity.
+      - For example, *not* generic learning would
+        - not solve some condition,
+          - like lacking minus numbers in it's general form;
+          - like giving the minus number area small probability, distribution and scale, so that optimizer reaches them inefficiently or precision is not stable;
+        - not scope with a number:
+           - you could not change the precision, remaining in stable area, by changing the size of vector (1D machine learning) or matrix (2D deep learning), and getting stable benefit from the scale.
+           - in deep learning, if you scale it into *as big as you get into*, before it disturbs other space-takers, is typical for data you *won't read manually*, but machine learning will give your *high school expressions*, like linear equation or polynominal systems - you generally thrive with *shortest expressions, which are still expressive*, and you might not be interested in all digits even in this.
+
+Domain learning associates:
+- The business, farming, climate, science formulae which turns this into *domain-based machine learning* is general in your domain:
+  - Climate or business formulae has balanced input=>output relationship; changing the learnt data (unknowns) smoothly, by given steps, also remains stable and smooth in output.
+    - It's rather linear, or has at least some linearizable properties (where the latter can be quite complex, and linear can be quite simple and straightforward to implement and understand - often the values your business already has for it's critical eqations, and what follows is not exception in this)
+    - It scales linearly in nD - if you add parameters, rows or columns in same format, the value of equation will raise in case you need more complex or precise solution, you would not reinvent the formulae
+    - This is standard solution in your domain or business or climate vector: theoretic capability adds to every aspect, and to "learn", very often means to bring into general consciousness, parallel, contradicting and useful patterns
+      - The meaning scales as well: for example, same equation with more or less parameters compares you with other business, and even fits the formulaes they actually use and publish, or is a direct conversion or implication. Then, it also *learns generally in context*, altough it's domain specific - for atom energy, your business formulae might not suit, while the general ml or dl might resolve it as easily and closely with it's general form.
+
+You are simply using ML to solve a formulae if:
+- It's not balanced: for example, for small companies you have to balance unknown v3 between 0.00001 and 0.00014, while for big companies it's between 30 and 40
+- You cannot extend it: for example, when your company is growing, you have other standard formulae, or you compare with other companies not based on math, but intuition - you say 72, they say 45, but it's another unit and you don't see where the paradigm shifts. So it does not "learn the context" (you lose it there). Generic formulae learns the context as system without explicitly being aware - your unknowns fit the contextual theory.
+- This is not standard solution: to "learn" means that it gives you a piece of data, which you can use tracking the implications *from now on, automatically, more or less*: for example, you download random Prolog program, give it your equation form (unknowns, base), and are already connected to theories - this means general learning, because in *prolog tautological system*, you can ask random questions, and they are learnt; if you have unique math framework - unless you are very serious about it and it's development, integrations, conversions etc., the prolog would *learn unrelated data*, thus *not learn*: it's not an intuition, but an abstract symbol.
+- The meaning does not scale: for example, you state that you have "connection with political organization x", when you fill a form; but your government has same connection with same function, but the connection is different. Rather, you have "end user connection with this IT company" and another might be companion, or even "friend" in a sense. While linguistic form might be similar, the functional form must properly scale and not reuse same variable for other reasons, or you *can not extend the theory*, ultimately, because *it must not be filled in, what means "connection"*.
