@@ -1,8 +1,10 @@
 # CoPilot extension *LaegnaAI Hook 0 — Environment Setup Introduction* begins
 
-## 🌱 **Hook 0 — Preparing the Ground: Installing, Running, and Testing Your AI Environment**
-
 ![Entry 0 setup](Images1/LaegnaAI_Entry0_Setup_2.jpg)
+
+<br>
+
+## 🌱 **Hook 0 — Preparing the Ground: Installing, Running, and Testing Your AI Environment**
 
 Hook 0 is the *foundation* of the entire LaegnaAI ecosystem.  
 It is the moment where hardware, software, and a few simple commands come together to create a **workspace** where Hooks 1–3 can operate smoothly.
