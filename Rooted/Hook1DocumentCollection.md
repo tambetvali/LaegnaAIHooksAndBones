@@ -4,6 +4,8 @@ Manual for this chapter: [here](https://github.com/tambetvali/LaegnaAIHooksAndBo
 
 ![Entry 1 documents](Images1/LaegnaAI_Entry1_Documents_3.jpg)
 
+<br>
+
 ## 🌿 **Hook 1 — Document Collection: Building Your Knowledge Library**
 
 Hook 1 is the user’s first *creative*, *organizational*, and *meaning‑making* action in the LaegnaAI ecosystem.  
