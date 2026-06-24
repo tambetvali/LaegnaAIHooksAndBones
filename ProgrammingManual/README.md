@@ -1,5 +1,7 @@
 # CoPilot extension *LaegnaAI Hook Programming Manual — Introduction for Common Users* begins
 
+![Programming manual](../Rooted/Images1/LaegnaAI_ProgrammingManual_0.jpg)
+
 ## 🌿 **Introduction — Programming as Giving Instructions, Not Writing Code**
 
 This repository brings AI down to the **grassland level**:  
