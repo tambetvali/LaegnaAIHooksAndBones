@@ -1,4 +1,4 @@
-![Entry 3 training](../../Rooted/Images1/LaegnaAI_Entry3_Training_5.jpg)
+![Architecture diagram](../../Rooted/Images1/LaegnaAI_Architecture_1.jpg)
 
 # Chapter 0 — The Three Steps of Growing AI Capability
 
