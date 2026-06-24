@@ -1,3 +1,5 @@
+![Entry 1 documents](../../Rooted/Images1/LaegnaAI_Entry1_Documents_3.jpg)
+
 # Building a Modern Document Collection for AI Workflows
 *A practical guide for individuals, professionals, and organizations*
 
