@@ -1,5 +1,7 @@
 ![Architecture diagram](../../Rooted/Images1/LaegnaAI_Architecture_1.jpg)
 
+<br>
+
 # Chapter 0 — The Three Steps of Growing AI Capability
 
 In each step, the AI access interface is updated:
