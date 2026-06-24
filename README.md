@@ -243,6 +243,8 @@ It shows the roles, the hooks, the bones, and the human‑centered architecture 
 
 # Hooks and bones
 
+![Hooks and Bones](Rooted/Images1/HooksAndBones.jpg)
+
 ***Hooks***: what are them?
 
 Automation librarians and code administers to programmers; programmers to administrators; and all tech-savy stuff to end users: we provide hooks.
