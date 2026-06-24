@@ -72,7 +72,7 @@ The model is trained, updated, or fine‑tuned.
 The user sees this as sending the AI to “college” — it learns, passes exams, and returns with new abilities.  
 This is the most visible transformation for the end user.
 
-### **🎓 5. Hook Programming Manual**  
+### **🎓 0. Hook Programming Manual**  
 **Link:** [`ProgrammingManual/README.md`](ProgrammingManual/README.md)  
 **Summary:**  
 Simple programming manual for your son or brother, assuming "terminal" or "console" might sound unyield words.
