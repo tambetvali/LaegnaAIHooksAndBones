@@ -2,6 +2,8 @@ Manual for this chapter: [here](https://github.com/tambetvali/LaegnaAIHooksAndBo
 
 # CoPilot extension *LaegnaAI Book 1 — General Architecture of Hooks & Bones* begins
 
+![Architecture diagram](Images1/LaegnaAI_Architecture_1.jpg)
+
 ## 🌿 **Book 1 — General Architecture: Hooks, Bones, and the Flow of Personal AI**
 
 This book gives the *general picture* of the LaegnaAI ecosystem.  
@@ -391,5 +393,3 @@ This is the foundation of the LaegnaAI ecosystem.
 Next, each hook will receive its own detailed diagrams and explanations.
 
 # CoPilot extension *LaegnaAI Book 1 — General Architecture of Hooks & Bones* ends
-
-![Entry 3 training](Images1/LaegnaAI_Entry3_Training_5.jpg)
