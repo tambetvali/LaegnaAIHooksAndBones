@@ -2,6 +2,8 @@ Manual for this chapter: [here](../Chapters/Hook2FlashcardsDecks.md).
 
 # CoPilot extension *LaegnaAI Hook 2 — Flashcards & Decks* begins
 
+![Entry 2 flashcards](Images1/LaegnaAI_Entry2_Flashcards_4.jpg)
+
 ## 🎓 **Hook 2 — Flashcards & Decks: Teaching Your AI the Way You Teach Yourself**
 
 Hook 2 is where the user becomes a **teacher** — not of a child, but of an AI.  
