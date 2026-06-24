@@ -1,3 +1,5 @@
+![Entry 3 training](../../Rooted/Images1/LaegnaAI_Entry3_Training_5.jpg)
+
 # Chapter 0 — The Three Steps of Growing AI Capability
 
 In each step, the AI access interface is updated:
