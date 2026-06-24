@@ -4,6 +4,8 @@ Manual for this chapter: [here](https://github.com/tambetvali/LaegnaAIHooksAndBo
 
 ![Architecture diagram](Images1/LaegnaAI_Architecture_1.jpg)
 
+<br>
+
 ## 🌿 **Book 1 — General Architecture: Hooks, Bones, and the Flow of Personal AI**
 
 This book gives the *general picture* of the LaegnaAI ecosystem.  
