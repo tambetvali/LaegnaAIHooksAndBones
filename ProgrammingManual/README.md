@@ -2,6 +2,8 @@
 
 ![Programming manual](../Rooted/Images1/LaegnaAI_ProgrammingManual_0.jpg)
 
+<br>
+
 ## 🌿 **Introduction — Programming as Giving Instructions, Not Writing Code**
 
 This repository brings AI down to the **grassland level**:  
