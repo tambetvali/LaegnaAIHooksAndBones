@@ -391,3 +391,5 @@ This is the foundation of the LaegnaAI ecosystem.
 Next, each hook will receive its own detailed diagrams and explanations.
 
 # CoPilot extension *LaegnaAI Book 1 — General Architecture of Hooks & Bones* ends
+
+![Entry 3 training](Images1/LaegnaAI_Entry3_Training_5.jpg)
