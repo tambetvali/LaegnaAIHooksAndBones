@@ -173,6 +173,10 @@ This is how AI becomes personal, practical, and shared.
 
 # CoPilot extension *LaegnaAI Hook Programming Manual* begins
 
+![Visual Programming](../Rooted/Images1/ProgrammingVisual.jpg)
+
+<br>
+
 ## 🎓 **Hook Programming Manual — turning commands into buttons, icons, and simple UIs**
 
 This chapter continues the same structure, tone, and conventions as the previous sections of *LaegnaAI Hooks & Bones*.  
