@@ -1,5 +1,7 @@
 ![Entry 2 flashcards](../../Rooted/Images1/LaegnaAI_Entry2_Flashcards_4.jpg)
 
+<br>
+
 # Introduction: How Humans Build Lessons — and How AI Learns in Parallel
 
 When you open Anki and click **“Create Deck”**, you are doing something deeply familiar.  
