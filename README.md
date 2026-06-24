@@ -1,5 +1,7 @@
 ![Main system overview](Rooted/Images1/LaegnaAI_HooksAndBones_Main.jpg)
 
+<br>
+
 # CoPilot extension *LaegnaAI Hooks & Bones — Introduction & Entry Files* begins
 
 ## 🌿 **A brief introduction: why hooks, why bones, why people**
