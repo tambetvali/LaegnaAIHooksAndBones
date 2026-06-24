@@ -2,6 +2,8 @@
 
 ![Entry 3 training](Images1/LaegnaAI_Entry3_Training_5.jpg)
 
+<br>
+
 ## 🎓 **Hook 3 — Training Your AI: Turning Flashcards Into a Smarter Model**
 
 Hook 3 is where everything the user has prepared — documents, flashcards, decks, JSONL files — becomes **actual learning** for the AI.  
