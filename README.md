@@ -1,6 +1,10 @@
+![Main system overview](Rooted/Images1/LaegnaAI_HooksAndBones_Main.jpg)
+
 # CoPilot extension *LaegnaAI Hooks & Bones — Introduction & Entry Files* begins
 
 ## 🌿 **A brief introduction: why hooks, why bones, why people**
+
+![Intro image](Rooted/Images1/LaegnaAI_Intro_HooksBones.jpg)
 
 LaegnaAI is built on a simple truth:  
 **end users should feel free, capable, and creative — even when the technology behind their AI is deep, complex, and evolving.**
@@ -29,53 +33,117 @@ Below are the four entry files that form the backbone of this system.
 
 ### **📘 1. General Architecture — Rooted/Book1General.md**  
 **Link:** [`Rooted/Book1General.md`](Rooted/Book1General.md)  
-**Summary:**  
-A panoramic overview of the LaegnaAI ecosystem.  
-Shows how user‑facing hooks sit on top of deeper layers: installation, services, training tools, RAG pipelines, and model catalogs.  
-Explains the “bones” — the stable structures that helpers maintain — and the “hooks” — the points where users act freely.
+
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+  <img src="Rooted/Images1/LaegnaAI_Architecture_1.jpg" alt="Architecture diagram" width="200">
+</td>
+<td style="vertical-align:top;">
+  <strong>Summary:</strong><br><br>
+  A panoramic overview of the LaegnaAI ecosystem.<br>
+  Shows how user‑facing hooks sit on top of deeper layers: installation, services, training tools, RAG pipelines, and model catalogs.<br>
+  Explains the “bones” — the stable structures that helpers maintain — and the “hooks” — the points where users act freely.
+</td>
+</tr>
+</table>
+
 
 ---
 
 ### **🛠️ 2. Hook 0 — Setup & Installation — Rooted/Hook0SetupInstallation.md**  
 **Link:** [`Rooted/Hook0SetupInstallation.md`](Rooted/Hook0SetupInstallation.md)  
-**Summary:**  
-The only hook where the user *asks for help*.  
-A tech‑savvy friend, child, sibling, or hired admin installs the model, sets up Ollama or other runtimes, configures services, and ensures everything works.  
-User learns their role: they don’t need to know command lines or code — they only need to know *where their hook is*.
+
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+  <img src="Rooted/Images1/LaegnaAI_Entry0_Setup_2.jpg" alt="Entry 0 setup" width="200">
+</td>
+<td style="vertical-align:top;">
+  <strong>Summary:</strong><br><br>
+    The only hook where the user *asks for help*.<br>
+    A tech‑savvy friend, child, sibling, or hired admin installs the model, sets up Ollama or other runtimes, configures services, and ensures everything works.<br>
+    User learns their role: they don’t need to know command lines or code — they only need to know *where their hook is*.
+</td>
+</tr>
+</table>
+
 
 ---
 
 ### **📁 3. Hook 1 — Document Collection — Rooted/Hook1DocumentCollection.md**  
 **Link:** [`Rooted/Hook1DocumentCollection.md`](Rooted/Hook1DocumentCollection.md)  
-**Summary:**  
-The user’s first real action.  
-They create and organize documents: bios, journals, CVs, project folders, Markdown trees, or CMS entries.  
-This is the “library of the self,” the material the AI will learn from.  
-Helpers do not touch this — it is personal, contextual, and meaningful.
+
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+  <img src="Rooted/Images1/LaegnaAI_Entry1_Documents_3.jpg" alt="Entry 1 documents" width="200">
+</td>
+<td style="vertical-align:top;">
+  <strong>Summary:</strong><br><br>
+    The user’s first real action.<br>
+    They create and organize documents: bios, journals, CVs, project folders, Markdown trees, or CMS entries.<br>
+    This is the “library of the self,” the material the AI will learn from.<br>
+    Helpers do not touch this — it is personal, contextual, and meaningful.
+</td>
+</tr>
+</table>
+
 
 ---
 
 ### **🃏 4. Hook 2 — Flashcards & Decks — Rooted/Hook2FlashcardsDecks.md**  
 **Link:** [`Rooted/Hook2FlashcardsDecks.md`](Rooted/Hook2FlashcardsDecks.md)  
-**Summary:**  
-Users create flashcards, verify decks, and simulate learning sessions using tools like Anki.  
-Helpers may prepare the fine‑tuning environment, but the *hook* is where the user expresses their knowledge in Q&A form.  
-This is the “school” of the AI — the place where lessons are prepared.
+
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+  <img src="Rooted/Images1/LaegnaAI_Entry2_Flashcards_4.jpg" alt="Entry 2 flashcards" width="200">
+</td>
+<td style="vertical-align:top;">
+  <strong>Summary:</strong><br><br>
+    Users create flashcards, verify decks, and simulate learning sessions using tools like Anki.<br>
+    Helpers may prepare the fine‑tuning environment, but the *hook* is where the user expresses their knowledge in Q&A form.<br>
+    This is the “school” of the AI — the place where lessons are prepared.
+</td>
+</tr>
+</table>
 
 ---
 
 ### **🎓 5. Hook 3 — Training & Fine‑Tuning — Rooted/Hook3TrainingFinetuning.md**  
 **Link:** [`Rooted/Hook3TrainingFinetuning.md`](Rooted/Hook3TrainingFinetuning.md)  
-**Summary:**  
-Users hand their decks to a helper or automated pipeline.  
-The model is trained, updated, or fine‑tuned.  
-The user sees this as sending the AI to “college” — it learns, passes exams, and returns with new abilities.  
-This is the most visible transformation for the end user.
+
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+  <img src="Rooted/Images1/LaegnaAI_Entry3_Training_5.jpg" alt="Entry 3 training" width="200">
+</td>
+<td style="vertical-align:top;">
+  <strong>Summary:</strong><br><br>
+    Users hand their decks to a helper or automated pipeline.<br>
+    The model is trained, updated, or fine‑tuned.<br>
+    The user sees this as sending the AI to “college” — it learns, passes exams, and returns with new abilities.<br>
+    This is the most visible transformation for the end user.
+</td>
+</tr>
+</table>
+
 
 ### **🎓 0. Hook Programming Manual**  
 **Link:** [`ProgrammingManual/README.md`](ProgrammingManual/README.md)  
-**Summary:**  
-Simple programming manual for your son or brother, assuming "terminal" or "console" might sound unyield words.
+
+<table>
+<tr>
+<td style="vertical-align:top; padding-right:20px;">
+  <img src="Rooted/Images1/LaegnaAI_ProgrammingManual_0.jpg" alt="Programming manual" width="200">
+</td>
+<td style="vertical-align:top;">
+  <strong>Summary:</strong><br><br>
+    Simple programming manual for your son or brother, assuming "terminal" or "console" might sound unyield words.
+</td>
+</tr>
+</table>
 
 ---
 
